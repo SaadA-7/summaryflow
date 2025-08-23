@@ -9,7 +9,6 @@ A modern web application that generates concise summaries from long text using p
 🎨 Modern UI: Beautiful glassmorphism design with responsive layout
 🔒 Privacy First: No data storage, secure client-side processing
 📱 Mobile Ready: Fully responsive across all devices
-🚀 One-Click Deploy: Ready for Vercel deployment
 
 ## 🛠 Tech Stack
 ComponentTechnologyFrontendReact 18 + Vite + Tailwind CSSBackendPython Flask + Hugging Face TransformersAI ModelDistilBART (lightweight & efficient)DeploymentVercel (Frontend + Serverless Functions)StylingTailwind CSS v3 with custom animations
