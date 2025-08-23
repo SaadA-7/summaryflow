@@ -1,4 +1,4 @@
-# SwiftDigest - AI Text Summarizer
+# SummaryFlow - AI Text Summarizer
 
 A modern web application that generates concise summaries from long text using pre-trained transformer models. Built with React, Flask, and Hugging Face Transformers for fast, accurate text summarization.
 
