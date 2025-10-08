@@ -2,22 +2,22 @@
 
 A modern web application that generates concise summaries from long text using pre-trained transformer models. Built with React, Flask, and Hugging Face Transformers for fast, accurate text summarization.
 
-## 🌟 Features
+##  Features
 
-⚡ Lightning Fast: Powered by DistilBART for quick summarization
-📄 Smart Chunking: Handles documents of any length automatically
-🎨 Modern UI: Beautiful glassmorphism design with responsive layout
-🔒 Privacy First: No data storage, secure client-side processing
-📱 Mobile Ready: Fully responsive across all devices
+ Lightning Fast: Powered by DistilBART for quick summarization
+ Smart Chunking: Handles documents of any length automatically
+ Modern UI: Beautiful glassmorphism design with responsive layout
+ Privacy First: No data storage, secure client-side processing
+ Mobile Ready: Fully responsive across all devices
 
-## 🛠 Tech Stack
+##  Tech Stack
 ComponentTechnologyFrontendReact 18 + Vite + Tailwind CSSBackendPython Flask + Hugging Face TransformersAI ModelDistilBART (lightweight & efficient)DeploymentVercel (Frontend + Serverless Functions)StylingTailwind CSS v3 with custom animations
 
-### 📁 Project Structure
+###  Project Structure
 SwiftDigest/
-├── 📂 frontend/
-│   ├── 📂 public/
-│   ├── 📂 src/
+├──  frontend/
+│   ├──  public/
+│   ├──  src/
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── index.css
@@ -25,14 +25,14 @@ SwiftDigest/
 │   ├── package.json
 │   ├── vite.config.js
 │   └── tailwind.config.js
-├── 📂 backend/
+├──  backend/
 │   ├── app.py
 │   └── requirements.txt
 ├── vercel.json
 ├── .gitignore
 └── README.md
 
-### 🚀 Quick Start
+###  Quick Start
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ Frontend will run on: http://localhost:5173
 4. Open Application
 Visit http://localhost:5173 in your browser
 
-📦 Installation Details
+ Installation Details
 Backend Dependencies
 bashFlask==3.0.0
 Flask-CORS==4.0.0
@@ -85,7 +85,7 @@ npm install
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss@3 init -p
 
-## 🌐 Deployment to Vercel
+##  Deployment to Vercel
 1. Push to GitHub
 bashgit add .
 git commit -m "Initial commit: SwiftDigest implementation"
@@ -105,7 +105,7 @@ In Vercel dashboard → Project Settings → Environment Variables:
 envPYTHON_VERSION=3.9
 NODE_VERSION=18
 
-## 🎯 Usage Guide
+##  Usage Guide
 Basic Usage
 
 Input Text: Paste your long text, article, or document
@@ -115,16 +115,16 @@ Get Summary: Receive a concise, coherent summary
 
 ## Supported Content Types
 
-📰 News Articles: Get key points from long news pieces
-📄 Research Papers: Generate abstracts from academic content
-📊 Business Reports: Create executive summaries
-📧 Email Threads: Summarize long conversation chains
-📚 Blog Posts: Extract main ideas from lengthy articles
+ News Articles: Get key points from long news pieces
+ Research Papers: Generate abstracts from academic content
+ Business Reports: Create executive summaries
+ Email Threads: Summarize long conversation chains
+ Blog Posts: Extract main ideas from lengthy articles
 
 Text Length Recommendations
 Input LengthProcessing TimeQuality100-800 chars< 2 secondsExcellent800-2000 chars2-5 secondsVery Good2000+ chars5-10 secondsGood (chunked)
 
-## ⚙️ Configuration
+##  Configuration
 Model Configuration
 The app uses DistilBART (sshleifer/distilbart-cnn-12-6) for optimal performance:
 python# backend/app.py
@@ -183,7 +183,7 @@ json{
   "model_ready": true
 }
 
-## 🧪 Testing
+##  Testing
 Manual Testing
 
 Short Text: Test with < 100 characters (should show error)
@@ -197,7 +197,7 @@ bash# Test API endpoint directly
 curl -X POST http://localhost:5000/api/summarize \
   -H "Content-Type: application/json" \
   -d '{"text": "Your test content here..."}'
-🐛 Troubleshooting
+ Troubleshooting
 Common Issues
 Model Loading Errors
 Error: Failed to load model
@@ -233,13 +233,13 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 ## 
-🔐 Security & Privacy
+ Security & Privacy
 Data Privacy
 
-❌ No Data Storage: Text is never saved or logged
-🔒 Secure Processing: All processing happens in memory
-🛡️ No Tracking: No user analytics or tracking
-⚡ Ephemeral: Data is destroyed after processing
+ No Data Storage: Text is never saved or logged
+ Secure Processing: All processing happens in memory
+ No Tracking: No user analytics or tracking
+ Ephemeral: Data is destroyed after processing
 
 ### Security Features
 
@@ -248,7 +248,7 @@ CORS Protection: Configured for safe cross-origin requests
 Error Sanitization: Sensitive error details are hidden
 Rate Limiting: Built-in protection against abuse
 
-## 📈 Performance Optimization
+##  Performance Optimization
 ### Frontend Optimizations
 
 Code Splitting: Vite automatically splits bundles
@@ -263,7 +263,7 @@ Efficient Chunking: Smart text splitting algorithms
 Error Recovery: Graceful handling of processing failures
 Connection Pooling: Optimized for concurrent requests
 
-## 🤝 Contributing
+##  Contributing
 Welcomed contributions! Please follow these steps:
 
 Fork the repository
